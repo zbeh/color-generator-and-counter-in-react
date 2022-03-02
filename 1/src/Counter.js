@@ -14,9 +14,6 @@ class Counter extends React.Component{
       if(this.state.counter>0){
         this.setState({counter:this.state.counter-1})
       }
-      else{
-        alert("sorry you can not decrease")
-      }
       
     }
     render(){
