@@ -23,7 +23,7 @@ class ColorGenerator extends React.Component{
         return (
             <div className='container'>
                 <button className='btn' onClick={this.getRandomColor}>Add Color</button>
-                {this.state.list.map((c,i)=> <Color key={i} colorp={c}/>)}
+                {this.state.list.map((c,i)=> <Color key={i} color={c}/>)}
             </div>
         )
         
