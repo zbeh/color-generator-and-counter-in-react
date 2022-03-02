@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    padding-top:2%;
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .square{
+        width: 1em;
+        height: 1em;
+    }
+    .color-list{
+        margin-left: .4em;
+    }
+}
+.btn{
+    padding: .5em 1em;
+}
+
+
+    
+
